@@ -33,7 +33,7 @@ url_get = 'https://services.radio-canada.ca/neuro/v1/episodes/' + numero_episode
 
 # Interrogation API 
 emission = requests.get(url_get,
-             headers={'Authorization':'Client-Key bf9ac6d8-9ad8-4124-a63c-7b7bdf22a2ee'})
+             headers={'Authorization':'Client-Key xxxx'})
 
 contenu_emission = emission.json()
 
